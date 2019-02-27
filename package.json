@@ -4,13 +4,13 @@
   "description": "Node Express Handlebars",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cesarmarroquin22/burger.git"
   },
-  "author": "Cesar Marroquin",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/cesarmarroquin22/burger/issues"
@@ -22,6 +22,8 @@
     "express": "^4.16.4",
     "express-handlebars": "^3.0.2",
     "method-override": "^3.0.0",
-    "mysql": "^2.16.0"
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.5",
+    "node": "^11.10.0"
   }
 }

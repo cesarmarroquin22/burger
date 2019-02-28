@@ -55,6 +55,7 @@ var orm = {
 			cb(result);
 		});
 	},
+
 	// Add a burger to the db.
 	// ================================
 	insertOne: function (table, cols, vals, cb) {
